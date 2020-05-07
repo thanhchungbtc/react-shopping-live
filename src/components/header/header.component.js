@@ -10,9 +10,6 @@ const Header = ({ currentUser }) => (
     </Link>
 
     <div className="options">
-      <Link className="option" to="/signin">
-        SIGN IN
-      </Link>
 
       <Link className="option" to="/shop">
         SHOP
