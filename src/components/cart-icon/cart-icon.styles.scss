@@ -1,0 +1,17 @@
+.cart-icon {
+  cursor: pointer;
+  .shopping-icon {
+    text-transform: uppercase;
+  }
+  .item-count {
+    font-size: 14px;
+    font-weight: bolder;
+
+    &:before {
+      content: "(";
+    }
+    &:after {
+      content: ")";
+    }
+  }
+}
