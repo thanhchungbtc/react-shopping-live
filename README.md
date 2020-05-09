@@ -1,4 +1,4 @@
-A shopping app written in React
+A fullfledge shopping app written in React
 
 ## What in here
 
