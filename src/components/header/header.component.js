@@ -23,15 +23,17 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
         CONTACTS
       </Link>
       {currentUser ? (
-        <div className="option" onClick={() => signOutStart()}>
-          SIGN OUT
-        </div>
+        <>
+          <div className="option" onClick={() => signOutStart()}>
+            SIGN OUT
+          </div>
+          <CartIcon />
+        </>
       ) : (
         <Link className="option" to="/signin">
           SIGN IN
         </Link>
       )}
-      <CartIcon />
     </div>
     {hidden ? null : <CartDropdown />}
   </div>
